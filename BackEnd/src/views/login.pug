@@ -1,0 +1,14 @@
+html
+head
+   title Log In
+   body
+      form(action = "/", method = "POST")
+      div
+         label(for = "username") username: 
+         input(username = "username")
+      br
+      div
+         label(for = "password") password: 
+         input(name = "password",type="password")
+      br
+      button(type = "submit") ok
